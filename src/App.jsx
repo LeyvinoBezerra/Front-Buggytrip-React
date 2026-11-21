@@ -1,16 +1,16 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "bootswatch/dist/materia/bootstrap.css";
 import "react-toastify/dist/ReactToastify.css";
-import "./estilos/global.css";
-import Navbar from "./componentes/Navbar/Navbar.jsx";
+import "./estilos/style.css";
+import Navbar from "./componentes/Navbar.jsx";
 import ContextoAutenticacao from "./contextos/ContextoAutenticacao.jsx";
-import CadastroBugueiro from "./paginas/CadastroBugueiro.jsx";
-import CadastroLancamentos from "./paginas/CadastroLancamentos.jsx";
-import CadastroUsuario from "./paginas/CadastroUsuario.jsx";
-import Home from "./paginas/Home.jsx";
-import LancamentosConsulta from "./paginas/LancamentosConsulta.jsx";
-import Login from "./paginas/Login.jsx";
-import PaginaNaoEncontrada from "./paginas/PaginaNaoEncontrada.jsx";
+import CadastroBugueiro from "./componentes/CadastroBugueiro.jsx";
+import CadastroLancamentos from "./componentes/CadastroLancamentos.jsx";
+import CadastroUsuario from "./componentes/CadastroUsuario.jsx";
+import Home from "./componentes/Home.jsx";
+import LancamentosConsulta from "./componentes/LancamentosConsulta.jsx";
+import Login from "./componentes/Login.jsx";
+import PaginaNaoEncontrada from "./componentes/PaginaNaoEncontrada.jsx";
 
 export default function App() {
   return (

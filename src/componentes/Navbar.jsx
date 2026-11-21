@@ -1,8 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useContext } from "react";
-import { AuthContext } from "../../contextos/ContextoAutenticacao.jsx";
-import logo from "../../assets/LogoBuggyTrip.png";
-import "./Navbar.css";
+import { AuthContext } from "../contextos/ContextoAutenticacao.jsx";
+import logo from "../assets/LogoBuggyTrip.png";
 
 export default function Navbar() {
   const { pathname } = useLocation();
