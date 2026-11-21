@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, Navigate } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
-import UsuarioService from "../servicos/usuarioService/UsuarioService.js";
+import UsuarioService from "../mock/UsuarioService.js";
 import {
   showToastError,
   showToastSuccess,

@@ -2,9 +2,9 @@ import { useContext, useEffect, useState } from "react";
 import { Link, Navigate } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import { AuthContext } from "../contextos/ContextoAutenticacao.jsx";
-import LocalStorageService from "../servicos/LocalStorageService.js";
-import LancamentoService from "../servicos/lancamentoService/LancamentoService.js";
-import UsuarioService from "../servicos/usuarioService/UsuarioService.js";
+import LocalStorageService from "../mock/LocalStorageService.js";
+import LancamentoService from "../mock/LancamentoService.js";
+import UsuarioService from "../mock/UsuarioService.js";
 import {
   showToastError,
   showToastSuccess,

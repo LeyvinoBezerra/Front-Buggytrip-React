@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import { Link, Navigate } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import { AuthContext } from "../contextos/ContextoAutenticacao.jsx";
-import UsuarioService from "../servicos/usuarioService/UsuarioService.js";
+import UsuarioService from "../mock/UsuarioService.js";
 import { showToastError } from "../utilitarios/notificacoes.js";
 
 export default function Login() {
@@ -92,8 +92,11 @@ export default function Login() {
             Ainda não tem conta? <Link to="/cadastrar-usuarios">Criar conta</Link>
           </p>
           <div className="demo-account">
-            Conta local: <strong>cliente@buggytrip.local</strong>
-            <br />Senha: <strong>Cliente@123</strong>
+            <strong>Acesso de demonstração</strong>
+            <br />
+            Cliente: <strong>cliente@buggytrip.local</strong> / <strong>Cliente@123</strong>
+            <br />
+            Administrador: <strong>admin@buggytrip.local</strong> / <strong>Admin@123</strong>
           </div>
         </section>
       </main>
