@@ -1,0 +1,38 @@
+.navbar.fixed-top {
+  height: 82px;
+  min-height: 82px;
+  padding-block: 0;
+  background: rgba(255, 255, 255, 0.92) !important;
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 8px 30px rgba(24, 49, 43, 0.06);
+  backdrop-filter: blur(14px);
+}
+
+.navbar-brand {
+  padding: 0;
+  margin-right: 1rem;
+}
+
+.navbar-brand img {
+  display: block;
+  width: 138px;
+  height: auto;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  gap: 8px;
+  align-items: center;
+}
+
+.nav-link {
+  color: #526760 !important;
+  font-weight: 700;
+  padding: 10px 14px !important;
+  border-radius: 10px;
+}
+
+.nav-link:hover {
+  color: var(--brand) !important;
+  background: #edf7f2;
+}
